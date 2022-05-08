@@ -1,0 +1,21 @@
+#Procfile
+web: sh setup.sh && streamlit run app.py
+
+#setup.sh
+mkdir -p ~/.streamlit/
+
+echo "\
+[server]\n\
+port = $PORT\n\
+enableCORS = false\n\
+headless = true\n\
+\n\
+" > ~/.streamlit/config.toml
+
+#requirements.txt
+streamlit==1.9.0
+sib_api_v3_sdk==7.4.0
+matplotlib==3.5.2
+pandas==1.4.2
+plotly==5.7.0
+scikit-learn==1.0.2
