@@ -16,7 +16,7 @@ if page_option == "Intro":
     st.title("Introduction")
     st.image('img.jpg')
     st.write(TEXT)
-
+'''
 elif page_option == "Team - 1":
     A = a1.A()
     A.main()
@@ -28,3 +28,4 @@ elif page_option == "Team - 2":
 elif page_option == "Team - 3":
     C = a3.team4()
     C.main()
+'''
