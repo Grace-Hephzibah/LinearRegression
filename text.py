@@ -7,7 +7,7 @@ TEXT = '''
 ## Teams
 
 ### Placement Score Predictor
-- Aishwarya Lakshimi A P
+- A P Aishwarya Lakshmi
 - Prawin R P
 
 ### Salary Predictor
