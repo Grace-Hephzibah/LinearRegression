@@ -24,10 +24,10 @@ class A:
             "based on their using Linear regression algorithm.\n \n ~ This study focuses on a system, that predicts "
             "if a student would be placed or not based on their CGPA. \n \n  ~ This predictor uses a machine-learning "
             "algorithm to give the result.\n \n ~ The algorithm used is Linear regression.\n \n ***Linear "
-            "Regression:*** \n \n ~ Linear regression uses the relationship between the Team1-points to draw a "
+            "Regression:*** \n \n ~ Linear regression uses the relationship between the data-points to draw a "
             "straight line through all them. \n \n ~ This line can be used to predict future values.")
 
-        st.header("Choose a graph to visualize the Team1")
+        st.header("Choose a graph to visualize the data")
 
         graph = st.selectbox(" ", ["Interactive", "Non-Interactive"], key=self.count)
         self.count += 1
